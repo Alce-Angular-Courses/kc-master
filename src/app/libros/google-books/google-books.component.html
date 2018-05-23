@@ -1,0 +1,10 @@
+<p>
+  google-books works!
+</p>
+<label for="">Clave</label>
+<input type="text" [(ngModel)]="clave">
+<button (click)="buscar()">Buscar</button>
+
+<ul>
+  <li *ngFor="let libro of aLibros">{{libro}}</li>
+</ul>

@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'kc-home',
   template: `
-    <p>
-      home works!
-    </p>
+    <kc-saludo></kc-saludo>
   `,
   styles: []
 })

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <p>
       libros works!
     </p>
+    <kc-google-books></kc-google-books>
   `,
   styles: []
 })
